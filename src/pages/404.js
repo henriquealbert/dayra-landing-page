@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import abductionIllustration from "../images/abduction-illustration.svg";
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import abductionIllustration from '../images/abduction-illustration.svg'
 
 function NotFoundPage() {
   return (
@@ -15,11 +15,11 @@ function NotFoundPage() {
           src={abductionIllustration}
         />
         <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
-          Looks like this page is a ghost that got abducted by aliens...
+          Parece que está página é um fantasma que foi abduzido por aliens...
         </h2>
       </div>
     </Layout>
-  );
+  )
 }
 
-export default NotFoundPage;
+export default NotFoundPage

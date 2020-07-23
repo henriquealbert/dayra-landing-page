@@ -24,7 +24,7 @@ function IndexPage() {
     <>
       <SEO
         keywords={[`engenharia`, `consultoria`, `engenheiro consultor`]}
-        title="Home"
+        title="Inscreva-se"
       />
       <BackgroundImage
         Tag="section"

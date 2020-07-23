@@ -13,13 +13,13 @@ function Header() {
   `)
   return (
     <header>
-      <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center py-4">
+      <div className="container mx-auto flex flex-wrap flex-row items-center py-4">
         <Link to="/">
-          <span className="ml-3 text-2xl text-gray-500 font-bold">
+          <span className="ml-3 text-1xl  sm:text-2xl  text-gray-500 font-bold inline-flex">
             {site.siteMetadata.title}
           </span>
         </Link>
-        <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:mt-0 mt-4">
+        <p className="inline-flex text-sm text-gray-500 ml-4 pl-4 border-l-2 border-gray-200 ">
           Liderança para Engenheiros
         </p>
       </div>

@@ -9,13 +9,22 @@ module.exports = {
     author: `@engdayraliz`
   },
   plugins: [
-    `gatsby-plugin-eslint`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-173385362-1',
+        // this option places the tracking script into the head of the DOM
+        head: true
+        // other options
+      }
+    },
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: '1432587657129780'
       }
     },
+    `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

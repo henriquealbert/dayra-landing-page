@@ -16,7 +16,7 @@ export default function Hero() {
   `)
   return (
     <section className="text-gray-700 body-font">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <Img
             className="object-cover object-center rounded"
@@ -25,10 +25,10 @@ export default function Hero() {
           />
         </div>
         <div className="lg:w-1/2 md:w-2/3 lg:pl-24 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-black text-gray-900 leading-tight">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-black text-white leading-tight">
             Aprenda sobre Soft Skills, Liderança & Carreira
           </h1>
-          <h2 className="mb-5 text-xl">
+          <h2 className="mb-5 text-xl text-gray-500">
             Tudo sobre o que a faculdade não te ensina!
             <br />
             Inscreva-se em meu Grupo do WhatsApp 👇

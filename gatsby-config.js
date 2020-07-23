@@ -1,6 +1,5 @@
 const resolveConfig = require('tailwindcss/resolveConfig')
 const tailwindConfig = require('./tailwind.config.js')
-
 const fullConfig = resolveConfig(tailwindConfig)
 
 module.exports = {
@@ -14,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: 'pixel id here'
+        pixelId: '1432587657129780'
       }
     },
     `gatsby-plugin-react-helmet`,
@@ -36,7 +35,7 @@ module.exports = {
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.teal['400'],
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`
+        icon: `src/images/favicon.png`
       }
     },
     {

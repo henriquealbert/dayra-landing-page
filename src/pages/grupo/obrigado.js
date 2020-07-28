@@ -1,9 +1,9 @@
 import React from 'react'
 
-import SEO from '../components/seo'
-import Thanks from '../components/thanks'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import SEO from '../../components/seo'
+import Thanks from '../../components/thanks'
+import Header from '../../components/header'
+import Footer from '../../components/footer'
 
 function ThankYouPage() {
   return (

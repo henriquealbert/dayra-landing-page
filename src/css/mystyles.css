@@ -15,3 +15,7 @@
   background-size: cover;
 }
 
+.bg-home {
+  background-image: linear-gradient(to top, rgba(168, 185, 218, 0.1) 0%, rgba(186, 200, 224, 0.2) 100%);
+  min-height: 100vh;
+}

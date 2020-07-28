@@ -35,8 +35,12 @@ export default function Hero() {
           <h2 className="mb-5 text-lg sm:text-xl text-gray-500">
             Tudo sobre o que a faculdade não te ensina!
             <br />
-            Inscreva-se em meu Grupo do WhatsApp 👇
+            Inscreva-se em meu Grupo VIP 👇
           </h2>
+          <p className="text-white">
+            Não é um grupo de interação. É um ambiente para eu te entregar meus
+            conteúdos exclusivos. ⚠️
+          </p>
           <Form />
           <p className="text-xs mt-2 text-gray-500 mb-8 w-3/4">
             Prometo não utilizar suas informações de contato para enviar

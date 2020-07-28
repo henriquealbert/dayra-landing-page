@@ -9,7 +9,7 @@ function MasterclassPage() {
     <>
       <SEO
         keywords={[`engenharia`, `consultoria`, `engenheiro consultor`]}
-        title="Inscreva-se no Grupo VIP"
+        title="Masterclass"
       />
       <Header />
       <h1>Masterclass</h1>

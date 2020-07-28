@@ -22,7 +22,7 @@ function IndexPage() {
     <div className="bg-home">
       <SEO
         keywords={[`engenharia`, `consultoria`, `engenheiro consultor`]}
-        title="Dayra Liz"
+        title="Home"
       />
       <Header />
       <main>

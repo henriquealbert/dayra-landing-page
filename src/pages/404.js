@@ -8,7 +8,7 @@ import Footer from '../components/footer'
 function NotFoundPage() {
   return (
     <>
-      <SEO title="404: Not found" />
+      <SEO title="404: Página não encontrada" />
       <Header />
       <div className="flex flex-col">
         <img

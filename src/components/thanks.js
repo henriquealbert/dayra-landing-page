@@ -36,7 +36,7 @@ export default function Thanks() {
         </h2>
         <div className="mx-auto text-center pt-6">
           <a
-            href="https://chat.whatsapp.com/JSLGM1V2sFj03e9dBTqU2T"
+            href="https://chat.whatsapp.com/GapKzqdy4lcJMrUX3iWjNn"
             rel="noreferrer noopener external"
             target="_blank"
             className="w-1/6 m-0 text-white bg-green-500 border-0 py-4 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"

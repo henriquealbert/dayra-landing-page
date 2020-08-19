@@ -47,7 +47,7 @@ function IndexPage() {
                 Grupo VIP
               </Link>
               <Link
-                to="/masterclass"
+                to="/masterclass-gratuita"
                 className="w-3/4 m-0 text-white bg-orange-500 border-0 py-2 px-2 sm:px-6 focus:outline-none hover:bg-orange-600 rounded text-lg"
               >
                 Masterclass

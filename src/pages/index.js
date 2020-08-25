@@ -53,6 +53,14 @@ function IndexPage() {
                 Masterclass
               </Link>
             </div>
+            <div className="mx-auto text-center mt-8">
+              <Link
+                to="/engenheiro-destaque"
+                className="w-3/4 m-0 text-white bg-orange-500 border-0 py-2 px-2 sm:px-6 focus:outline-none hover:bg-orange-600 rounded text-lg"
+              >
+                Engenheiro de Destaque
+              </Link>
+            </div>
           </div>
         </section>
       </main>

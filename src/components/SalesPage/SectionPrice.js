@@ -61,9 +61,9 @@ const SectionPrice = () => {
                 href="https://pay.hotmart.com/X39068254A"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex text-white bg-orange-500 border-0 py-4 px-8 focus:outline-none hover:bg-orange-600 rounded text-xl font-bold"
+                className="inline-flex text-white bg-orange-500 border-0 py-4 px-8 focus:outline-none hover:bg-orange-600 rounded text-center text-xl font-bold"
               >
-                QUERO ME INSCREVER AGORA
+                QUERO ME INSCREVER AGORA!
               </a>
             </div>
           </div>

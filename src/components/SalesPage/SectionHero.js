@@ -29,11 +29,11 @@ const SectionHero = () => {
             <h1 className="title-font sm:text-5xl text-4xl mb-4 font-medium text-yellow-500 font-black text-center">
               ENGENHEIRO DE DESTAQUE
             </h1>
-            <img
+            {/* <img
               className="lg:w-2/6 md:w-3/6 w-5/6 mb-5 object-cover object-center rounded"
               alt="hero"
               src="https://dummyimage.com/720x600"
-            />
+            /> */}
             <div className="text-center lg:w-2/3 w-full">
               <p className="mb-8 w-3/4 mx-auto leading-relaxed text-gray-300">
                 Aprenda a ter Vantagem Competitiva no Mercado e Ambiente de

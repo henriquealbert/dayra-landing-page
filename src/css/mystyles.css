@@ -19,3 +19,37 @@
   background-image: linear-gradient(to top, rgba(168, 185, 218, 0.1) 0%, rgba(186, 200, 224, 0.2) 100%);
   min-height: 100vh;
 }
+
+
+.video {
+  width: 768px;
+  height: 432px;
+}
+
+@media screen and (max-width: 1200px) {
+	.video {
+	width: 640px;
+  height: 360px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.video {
+		width: 576px;
+  height: 324px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.video {
+		width: 448px;
+  height: 252px;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.video {
+		width: 288px;
+  height: 162px;
+	}
+}

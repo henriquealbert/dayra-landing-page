@@ -1,5 +1,6 @@
 import Img from 'gatsby-image'
 import { useStaticQuery, graphql } from 'gatsby'
+import { Link as ScrollLink } from 'react-scroll'
 import React from 'react'
 
 const SectionDepoimentos = () => {
@@ -130,6 +131,16 @@ const SectionDepoimentos = () => {
                 fluid={data.depoimento8.childImageSharp.fluid}
               />
             </div>
+          </div>
+          <div className="flex justify-center mt-8">
+            <ScrollLink
+              to="matricula"
+              smooth={true}
+              duration={1000}
+              className="inline-flex cursor-pointer text-white font-bold bg-orange-500 border-0 py-4 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg mt-8 text-center"
+            >
+              QUERO ME INSCREVER AGORA!
+            </ScrollLink>
           </div>
         </div>
       </section>

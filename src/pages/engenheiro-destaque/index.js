@@ -9,6 +9,7 @@ import SectionMentoriaBonus from '../../components/SalesPage/SectionMentoriaBonu
 import SectionPrice from '../../components/SalesPage/SectionPrice'
 import SectionGarantia from '../../components/SalesPage/SectionGarantia'
 import SectionFaq from '../../components/SalesPage/SectionFaq'
+import SectionAutoridade from '../../components/SalesPage/SectionAutoridade'
 
 const EngenheiroDestaque = () => {
   return (
@@ -19,6 +20,7 @@ const EngenheiroDestaque = () => {
       />
       <SectionHero />
       <SectionWhoIsFor />
+      <SectionAutoridade />
       <SectionCourseContent />
       <SectionDepoimentos />
       <SectionBonus />

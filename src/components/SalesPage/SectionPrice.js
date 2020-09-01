@@ -2,6 +2,7 @@ import Img from 'gatsby-image'
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
+import Countdown from '../countdown'
 
 const SectionPrice = () => {
   const data = useStaticQuery(graphql`
@@ -40,23 +41,35 @@ const SectionPrice = () => {
               Este é o seu momento
             </h2>
             <div className="sm:flex mt-8 sm:mt-16 justify-evenly mx-auto items-center">
-              <h3 className=" text-2xl text-center sm:w-1/2 lg:w-1/3">
-                O Treinamento Completo Engenheiro de Destaque + 7 Bônus
+              <h3 className="mb-8 text-2xl text-gray-200 text-center sm:w-1/2 lg:w-1/3 font-medium">
+                O Treinamento Completo Engenheiro de Destaque + 8 Bônus
                 Incríveis irá sair apenas:
               </h3>
-              <div>
-                <p className="text-6xl font-bold text-center text-yellow-500">
-                  R$ 397,00
+              <div className="text-center">
+                <p className="sm:text-6xl text-5xl font-bold text-center text-yellow-500">
+                  <span className="text-2xl text-gray-400 font-medium">
+                    12x de{' '}
+                  </span>
+                  R$ 38,68
                 </p>
-                <p className="text-center">
-                  à vista ou em até 12x no cartão de crédito
+                <p className="text-center text-2xl font-gray-200 font-medium">
+                  ou R$ 397,00 à vista.
                 </p>
                 <div className="bg-gray-200 w-2/3 mx-auto mt-2 rounded-lg">
                   <Img fluid={data.pagamento.childImageSharp.fluid} />
                 </div>
               </div>
             </div>
-            <div className="flex justify-center mt-10 sm:mt-20">
+            <div className="text-center mt-10 text-gray-400  sm:w-3/5 mx-auto">
+              <p className="text-2xl font-bold">ATENÇÃO! ⚠️</p>
+              <p className="text-xl font-medium">
+                Este valor de R$397,00 estará disponível apenas por 48 horas!
+              </p>
+              <p className="text-xl font-medium">ATÉ dia 03/09 às 20 horas.</p>
+            </div>
+            <Countdown />
+
+            <div className="flex justify-center mt-6">
               <a
                 href="https://pay.hotmart.com/X39068254A"
                 target="_blank"

@@ -63,9 +63,9 @@ const SectionPrice = () => {
             <div className="text-center mt-10 text-gray-400  sm:w-3/5 mx-auto">
               <p className="text-2xl font-bold">ATENÇÃO! ⚠️</p>
               <p className="text-xl font-medium">
-                Este valor de R$397,00 estará disponível apenas por 48 horas!
+                Este valor de R$397,00 estará disponível apenas por 96 horas!
               </p>
-              <p className="text-xl font-medium">ATÉ dia 03/09 às 20 horas.</p>
+              <p className="text-xl font-medium">ATÉ dia 05/09 às 20 horas.</p>
             </div>
             <Countdown />
 

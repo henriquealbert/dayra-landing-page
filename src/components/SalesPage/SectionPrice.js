@@ -62,7 +62,7 @@ const SectionPrice = () => {
 
             <div className="flex justify-center mt-6">
               <a
-                href="https://pay.hotmart.com/X39068254A?off=j93dfv57"
+                href="https://pay.hotmart.com/X39068254A?split=12"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex text-white bg-orange-500 border-0 py-4 px-8 focus:outline-none hover:bg-orange-600 rounded text-center text-xl font-bold"

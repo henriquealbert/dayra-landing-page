@@ -2,7 +2,6 @@ import Img from 'gatsby-image'
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
-import Countdown from '../countdown'
 
 const SectionPrice = () => {
   const data = useStaticQuery(graphql`
@@ -50,28 +49,20 @@ const SectionPrice = () => {
                   <span className="text-2xl text-gray-400 font-medium">
                     12x de{' '}
                   </span>
-                  R$ 38,68
+                  R$ 48,42
                 </p>
                 <p className="text-center text-2xl font-gray-200 font-medium">
-                  ou R$ 397,00 à vista.
+                  ou R$ 497,00 à vista.
                 </p>
                 <div className="bg-gray-200 w-2/3 mx-auto mt-2 rounded-lg">
                   <Img fluid={data.pagamento.childImageSharp.fluid} />
                 </div>
               </div>
             </div>
-            <div className="text-center mt-10 text-gray-400  sm:w-3/5 mx-auto">
-              <p className="text-2xl font-bold">ATENÇÃO! ⚠️</p>
-              <p className="text-xl font-medium">
-                Este valor de R$397,00 estará disponível apenas por 96 horas!
-              </p>
-              <p className="text-xl font-medium">ATÉ dia 05/09 às 20 horas.</p>
-            </div>
-            <Countdown />
 
             <div className="flex justify-center mt-6">
               <a
-                href="https://pay.hotmart.com/X39068254A"
+                href="https://pay.hotmart.com/X39068254A?off=j93dfv57"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex text-white bg-orange-500 border-0 py-4 px-8 focus:outline-none hover:bg-orange-600 rounded text-center text-xl font-bold"
